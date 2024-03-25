@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    font-family: "Poppins";
+}
+.color {
+    background-color: transparent !important;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: white;
+}
+.options {
+    margin-left: 720px;
+}
+.navbar-brand {
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    max-height: 800px;
+}
+.who {
+    background-color: black;
+    margin-bottom: 30px;
+}
+.whotitle {
+    color: white;
+    margin-bottom: 30px;
+}
+h2 {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+}
+.card-body {
+    text-align: justify;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0dcaf0;
+    width: 100%;
+    margin-bottom: -20px;
+    font-size: 30px;
+    padding: 1px;
+}
+.rowcard {
+    margin-top: 30px;
+}
+.second {
+    background-color: #0dcaf0;
+}
+.card img {
+    max-height: 200px;
+}
+
+footer {
+    background-color: #0dcaf0;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formtext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+    height: 100px;
+}
+.container-footer span {
+    margin-right: 500px;
+}
